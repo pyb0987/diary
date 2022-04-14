@@ -1,0 +1,15 @@
+1. Oracle, Open JDK, spring io
+2. Eclipse 20.12 또는 21.3
+encoding : UTF-8
+3. Tomcat 9.0 설치
+4. JSP-> dynamic web-> Maven
+5. spring 설치 및 eclipse 마켓플레이스에서 spring tool 3 add on 추가
+6. plug in->Perspective -> Spring
+7. Spring legacy 만들고 spring mvc
+
+8. com.springstudy.book
+  webContent 내지는 webapp이 root 폴더
+  resources : html, css, js
+  WEB-INF : web.xml은 tomcat의 설정파일, 한글 필터 설정
+  root-context.xml : spring 공통 설정 파일, DB
+  servlet-context.xml : spring web 설정 파일, 어노테이션 사용 설정
